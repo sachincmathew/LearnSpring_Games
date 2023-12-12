@@ -1,7 +1,9 @@
 package com.scm.spring.learnspringframework.game;
 
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
+@Qualifier("mario")
 @Component
 public class MarioGame implements Game {
 
