@@ -2,16 +2,20 @@ package com.scm.spring.learnspringframework.game;
 
 public class MarioGame implements Game {
 
-        public void up(){
+    @Override
+    public void up(){
             System.out.println("m_jump");
         }
-        public void down(){
+    @Override
+    public void down(){
             System.out.println("m_duck");
         }
-        public void left(){
+    @Override
+    public void left(){
             System.out.println("m_left");
         }
-        public void right(){
+    @Override
+    public void right(){
             System.out.println("m_right");
         }
 
